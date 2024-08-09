@@ -1,0 +1,43 @@
+body {
+  font-family: Verdana, sans-serif;
+  padding: 0;
+}
+
+fieldset {
+  background-color: #C0A392;
+  border: 10px solid black;
+}
+
+h1, h2, h3, p {
+  color: #654321;
+  text-align: center;
+  font-weight: 100%;
+}
+
+#img-caption {
+  font-style: italic;
+  text-align: center; /* Center-aligns caption text */
+}
+
+#image {
+  display: block;  /* Ensures the image is treated as a block-level element */
+  margin: 0 auto;  /* Centers the image horizontally */
+  max-width: 100%;
+  height: auto;
+}
+
+#tribute-info {
+  border: 1px solid black;
+  background-color: #C0A392;
+  padding: 10px;
+}
+
+#tribute-link {
+  color: blue;
+  text-transform: uppercase;
+  font-style: italic;
+  text-align: center;  /* Center-aligns the link */
+  display: block;      /* Makes the link a block-level element */
+  margin: 10px auto;
+  cursor: pointer;
+}
